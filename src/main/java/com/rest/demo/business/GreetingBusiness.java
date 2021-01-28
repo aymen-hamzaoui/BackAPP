@@ -12,7 +12,7 @@ public class GreetingBusiness {
 
     public Greeting badGreeting() {
         Greeting grt = new Greeting();
-        grt.setMessage("Votre nom est ce qui fait de vous une personne si spéciale. N'ayez aucune crainte à le mentionner :). Merci de le renseigner sous la forme gretting/message/autheur");
+        grt.setMessage("Votre nom est ce qui fait de vous une personne si spéciale. N'ayez aucune crainte à le mentionner :). Merci de le renseigner sous la forme /greeting/'votreNom'/'nomAutheur");
         return grt;
     }
 }
