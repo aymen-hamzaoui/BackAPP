@@ -22,7 +22,7 @@ public class GreetingController {
 
     @RequestMapping(value = "/")
     public String welcome() {
-        return "Bonjour à vous cher utilisateur <3. Merci de renseigner l'url sous la forme /gretting/message/autheur";
+        return "Bonjour à vous cher utilisateur <3. Merci de renseigner l'url sous la forme /gretting/'votreMessage'/'nomAutheur'";
     }
 
     @RequestMapping(value = "/greeting/{name}/{auteur}")
